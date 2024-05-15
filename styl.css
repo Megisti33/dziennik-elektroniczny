@@ -1,0 +1,25 @@
+:root{
+    --bg: #0C1618;
+    --accent: #004643;
+    --text: #FAF4D3;
+}
+
+nav{
+    background-color: var(--text);
+    height: 100px;
+    
+    & a{
+        height: 100%;
+        & img.logo{
+        height: inherit;
+
+        }
+    }
+        
+}
+
+.bg{
+    background-color: var(--bg);
+    padding: 0;
+}
+
